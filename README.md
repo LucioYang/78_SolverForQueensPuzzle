@@ -3,7 +3,7 @@
 ## Lucio Yang's remarks
 
 ### citations / worked with / received help from
-On Monday, I
+On Monday, I worked with Kenneth Chin and Manfred Tan at CS Dojo after school. We focused mostly on completing the exercise from Friday's class since that is what we had the most struggle on. 
 
 This list may omit sources common to everyone in the course,
 including...
