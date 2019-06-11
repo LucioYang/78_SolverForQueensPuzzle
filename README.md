@@ -2,8 +2,8 @@
 
 ## Lucio Yang's remarks
 
-### citations / worked with / received help from
-On Monday, I worked with Kenneth Chin and Manfred Tan at CS Dojo after school. We focused mostly on completing the exercise from Friday's class since that is what we had the most struggle on. 
+### worked with Kenneth Chin and Manfred Tan
+On Monday, I worked with Kenneth Chin and Manfred Tan at CS Dojo after school. We focused mostly on completing the exercise from Friday's class that we did not finish since that is what we had the most struggle on. Once we had a good grasp of what we're doing, rest of the work, including coding, went smoothly. 
 
 This list may omit sources common to everyone in the course,
 including...
@@ -18,7 +18,7 @@ web site or GitHub repos.
 ### no parameters and no return in the recursive method
 Unlike many recursive solutions, `recordSolutionsStarted` in `SolverForQueensPuzzle`...
 
-* takes no parameters and 
+* takes no parameters and citations
 * returns no value.
 
 That's ok, because all that information is communicated via
