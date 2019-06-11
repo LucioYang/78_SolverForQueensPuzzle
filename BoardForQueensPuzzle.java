@@ -19,13 +19,16 @@ public class BoardForQueensPuzzle {
 
     /**
       A copy constructor
-
       @return a reference to a copy of @old board, with the copy
               having a reference to its own, separate copy of
               filesWithQueens.
      */
     public BoardForQueensPuzzle( BoardForQueensPuzzle old) {
-        // your code here
+      this.lastRankFilled = old.lastRankFilled;
+      this.filesWithQueens = new int[old.filesWithQueens.length];
+      for (int i = 0; i < old.filesWithQueens.length; i++ ) {
+        this.filesWithQueens[i] = old.filesWithQueens[i];
+      }
     }
 
 
@@ -53,7 +56,6 @@ public class BoardForQueensPuzzle {
     /**
       @return the boolean value of the statement
               "The last-added queen introduced a conflict."
-
       @precondition: Before the latest queen was added,
                      no queen attacked another.
      */
@@ -89,12 +91,10 @@ public class BoardForQueensPuzzle {
     /**
       @return the boolean value of the statement...
                 "The board is fully and legally populated."
-
       precondition: All ranks except possibly the last-filled
         are populated legally. (That is, considering only the
         ranks before the last-filled rank, no queen attacks
         another.
-
         This method checks the last-filled rank.
      */
     public boolean accept() {
