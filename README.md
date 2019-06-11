@@ -5,14 +5,6 @@
 ### worked with Kenneth Chin and Manfred Tan
 On Monday, I worked with Kenneth Chin and Manfred Tan at CS Dojo after school. We focused mostly on completing the exercise from Friday's class that we did not finish since that is what we had the most struggle on. Once we had a good grasp of what we're doing, rest of the work, including coding, went smoothly. 
 
-This list may omit sources common to everyone in the course,
-including...
-* Piazza threads
-* class-wide discussions
-* communication with Holmes via the class
-web site or GitHub repos.
-
-
 ## Holmes's remarks
 
 ### no parameters and no return in the recursive method
@@ -25,7 +17,7 @@ That's ok, because all that information is communicated via
 the state of an instance of `SolverForQueensPuzzle`:
 
 * No parameters are required because
-the `inProgress` board "knows" which rank `recordSolutionsStarted` 
+the `inProgress`This board "knows" which rank `recordSolutionsStarted` 
 should work on, namely, that board's most-recently populated rank.
 
 * No return value is required  because 
